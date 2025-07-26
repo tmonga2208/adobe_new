@@ -1,0 +1,400 @@
+{
+  "title": "Welcome to the\u202f\u201cConnecting the Dots\u201d Challenge",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Rethink Reading. Rediscover Knowledge",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "What if every time you opened a PDF, it didn\u2019t just sit there\u2014it spoke to you,",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "connected ideas, and narrated meaning across your entire library?",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "That\u2019s the future we\u2019re building \u2014 and we want you to help shape it.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "surfaces insights, and responds to you like a trusted research companion.",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "The Journey Ahead",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Why This Matters",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "context. You\u2019re not just building tools \u2014 you\u2019re building the future of how we",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "read, learn, and connect. No matter your background \u2014 ML hacker, UI builder,",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "Are you in?",
+      "page": 2
+    },
+    {
+      "level": "H3",
+      "text": "experience that feels like magic. Let\u2019s go.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Round 1A: Understand Your Document",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Challenge Theme: Connecting the Dots Through Docs",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "Your Mission",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "You're handed a PDF \u2014 but instead of simply reading it, you're tasked with",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "making sense of it like a machine would. Your job is to extract a structured",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "outline of the document \u2014 essentially the Title, and headings like H1, H2, and",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "H3 \u2014 in a clean, hierarchical format.",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "You Will Be Provided",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "1.  A sample input PDF (e.g., sample.pdf)",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "2.  A sample ground truth output (sample.json) for format clarity",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3.  Sample Dockerfile",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "4.  Sample Solution",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Docker Requirements",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Please ensure your Dockerfile is compatible with AMD64",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "architecture. Since we will build and run the image on an AMD64",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "machine, your base image and any dependencies should support",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "linux/amd64. Optionally, you can include the following in your",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Expected Execution",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Model size   \u2264 200MB (if used)",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "No internet access",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Must run on CPU (amd64),",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "your solution should run on",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "the system with 8 CPUs and",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "16 GB RAM configurations",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Scoring Criteria",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Bonus: Multilingual Handling (e.g.,",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Submission Checklist",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "1.  Git Project with a working Dockerfile in the root director and",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "2.  A working Dockerfile",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "3.  All dependencies installed within the container",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "4.  A README.md that explains:",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Pro Tips",
+      "page": 5
+    },
+    {
+      "level": "H3",
+      "text": "Important \u2013 Please keep your Git Repo private till the competition",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "deadline, you will be informed, when to make the repo public.",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "What Not to Do",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Do not hardcode headings or file-specific logic",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Do not make API or web calls",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Do not exceed the runtime/model size constraints",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "[[Public Dataset Folder]]",
+      "page": 6
+    },
+    {
+      "level": "H3",
+      "text": "(For Sample Input and Output Files, please refer to the appendix)",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Round 1B: Persona-Driven Document Intelligence",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Theme:\u202f\u201cConnect What Matters \u2014 For the User Who Matters\u201d",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Challenge Brief (For Participants)",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "You will build a system that acts as an intelligent document analyst, extracting",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "and prioritizing the most relevant sections from a collection of documents based",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "on a specific persona and their job-to-be-done.",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Input Specification",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "2.  Document Collection: 3-10 related PDFs Persona Definition: Role",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "3.  Job-to-be-Done: Concrete task the persona needs to accomplish",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Sample Test Cases",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Test Case 1: Academic Research",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "methodologies, datasets, and performance benchmarks\"",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Job: \"Prepare a comprehensive literature review focusing on",
+      "page": 7
+    },
+    {
+      "level": "H3",
+      "text": "Test Case 2: Business Analysis",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Documents: 3 annual reports from competing tech companies",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Persona: Investment Analyst",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "positioning strategies\"",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Job: \"Analyze revenue trends, R&D investments, and market",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Test Case 3: Educational Content",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Job: \"Identify key concepts and mechanisms for exam preparation",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "Required Output",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "1.  Metadata:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "2.  Extracted Section:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "3.  Sub-section Analysis:",
+      "page": 8
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  approach_explanation.md (300-500 words explaining",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "\u2022  Dockerfile and execution instructions",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Sample input/output for testing",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "Scoring Criteria",
+      "page": 9
+    }
+  ]
+}
